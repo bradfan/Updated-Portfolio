@@ -1,46 +1,43 @@
-body{
+*{
     font-family: 'Times New Roman', Times, serif;
-    margin: auto;
+    /* box-sizing: border-box; */
+
+}
+body{
+    margin: 0;
     background-color: black;
-
-
+    
 }
 
 .top{
     background-color:darkslategrey;
-    width:100%;
     border-radius: 10px;
     color: darkkhaki;
-    height: auto;
     border: 2px solid black;
     display: flex;
-    justify-content: space-between;
-    
-    
-}   
+    justify-content: space-around;   
+} 
 
-#personal{
+nav{
+   display: inline-flex;
+   justify-content: space-around; 
+   
+}
+#name{
+    margin-left:20%;
+    margin-right: 20%;
+    font-size: 2rem;
+}
+
+
+ .personal{
     border:2px solid black;
-    border-radius: 50px;
-    max-width: 200px;
-
-}
-
-.name{
+    border-radius: 20px;
+     
+    flex: row;
     
-    margin-left: 10%; 
-    font-size: 200%;
 
 }
-
-
-
-a{
-    color: mintcream;
-    margin: 60px;
-
-    }
-
  
 .links{
     height: auto;
@@ -48,11 +45,9 @@ a{
     border-radius: 10px;
     border: 2px solid black;
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 2px;
     text-align: center;
-    color: mintcream;
     
 } 
 
@@ -61,10 +56,7 @@ a{
     margin-left: 20%;
     margin-right:20%;
     color: #3e2723;
-    margin-bottom: 10%;
     font-size:150%;
-
-
 }
 
 
@@ -74,53 +66,21 @@ main{
     border-radius: 10px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-top: 2px;
     
 }
-
-
-
-header{
-    text-align: center;
-    display:flex;
-    flex-direction: row;
-    
-    
+.check{
+    margin-right:20%;
 }
 
-#work{
+.apps{
      margin:20px;
      color:black;
-     
+     background-color: darkslategrey;
+     border:5px solid black;
+     border-radius: 10px;    
 }
-
-#about{
-    border:5px solid black;
-    margin:20px;
-    color: black;
-           
-}
-
-#contact{   
-    margin:20px;
-    color:black;
-    
-     
-}
-
-.contact{
-    text-align: center;
-    background-color: darkslategrey;
-    border-radius: 10px;
-    padding: 5px;
-    border: 2px solid black;
-    margin-top: 2px;
-    color: darkkhaki;
-
-}
-    
-
 
 
 footer{
@@ -129,3 +89,10 @@ footer{
     border: 2px solid black;
 
 }
+ @media screen and (max-width: 900px) {
+
+ }
+
+ @media screen and (min-width: 479px) and (max-width: 768px) {
+
+ }
